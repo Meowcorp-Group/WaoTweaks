@@ -30,6 +30,14 @@ Spices up Minecraft 1.16 a bit
 * Enderite Leggings
 * Enderite Boots
 
-### Reinforced Shields
-
-### Golden Foods
+### Extra Foods
+![Extra Foods](https://i.imgur.com/p3ogEy7.png)
+* Steak Sandwich
+* Carrot-Steak Sandwich
+* Golden Brown Mushroom (crafting ingredient)
+* Golden Red Mushroom (crafting ingredient)
+* Golden Mushroom Stew
+* Golden Bread
+* Golden Steak
+* Golden Sandwich
+* Enchanted Golden Sandwich
