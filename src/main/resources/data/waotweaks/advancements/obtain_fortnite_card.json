@@ -1,0 +1,34 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Who Wants It?"
+        },
+        "description": {
+            "text": "And yes, I'm giving it away"
+        },
+        "icon": {
+            "item": "waotweaks:fortnite_card"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "InvFortniteCard": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "waotweaks:fortnite_card"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 1000
+    },
+    "parent": "waotweaks:obtain_enderite_block"
+}

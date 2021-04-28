@@ -1,0 +1,41 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#GL",
+        "RDE",
+        "NCT"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:iron_block"
+        },
+        "G": {
+            "item": "minecraft:gold_block"
+        },
+        "L": {
+            "item": "minecraft:lapis_block"
+        },
+        "R": {
+            "item": "minecraft:redstone_block"
+        },
+        "D": {
+            "item": "minecraft:diamond_block"
+        },
+        "E": {
+            "item": "minecraft:emerald_block"
+        },
+        "N": {
+            "item": "minecraft:netherite_block"
+        },
+        "C": {
+            "item": "waotweaks:enderite_block"
+        },
+        "T": {
+            "item": "minecraft:totem_of_undying"
+        }
+    },
+    "result": {
+        "item": "waotweaks:fortnite_card",
+        "count": 1
+    }
+}

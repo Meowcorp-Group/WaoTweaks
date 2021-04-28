@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:netherite_ingot"
+        },
+        {
+            "item": "waotweaks:enderite_scrap"
+        },
+        {
+            "item": "waotweaks:enderite_scrap"
+        },
+        {
+            "item": "minecraft:diamond"
+        },
+        {
+            "item": "minecraft:diamond"
+        },
+        {
+            "item": "waotweaks:enderite_scrap"
+        },
+        {
+            "item": "minecraft:diamond"
+        },
+        {
+            "item": "minecraft:diamond"
+        },
+        {
+            "item": "waotweaks:enderite_scrap"
+        }
+    ],
+    "result": {
+        "item": "waotweaks:enderite_ingot",
+        "count": 1
+    }
+}

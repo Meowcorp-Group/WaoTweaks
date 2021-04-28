@@ -1,0 +1,43 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Cover Me in Dust"
+        },
+        "description": {
+            "text": "Obtain full Enderite Armor"
+        },
+        "icon": {
+            "item": "waotweaks:enderite_chestplate"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "InvFullEnderite": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "waotweaks:enderite_helmet"
+                    },
+                    {
+                        "item": "waotweaks:enderite_chestplate"
+                    },
+                    {
+                        "item": "waotweaks:enderite_leggings"
+                    },
+                    {
+                        "item": "waotweaks:enderite_boots"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 250
+    },
+    "parent": "waotweaks:obtain_enderite_dust"
+}

@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#B#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:gold_nugget"
+        },
+        "B": {
+            "item": "minecraft:red_mushroom"
+        }
+    },
+    "result": {
+        "item": "waotweaks:golden_red_mushroom",
+        "count": 1
+    }
+}

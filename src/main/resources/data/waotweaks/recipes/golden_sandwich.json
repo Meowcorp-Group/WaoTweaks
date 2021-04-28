@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "CWC",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "waotweaks:golden_bread"
+        },
+        "C": {
+            "item": "minecraft:golden_carrot"
+        },
+        "W": {
+            "item": "waotweaks:golden_steak"
+        }
+    },
+    "result": {
+        "item": "waotweaks:golden_sandwich",
+        "count": 1
+    }
+}

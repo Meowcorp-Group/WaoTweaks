@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "waotweaks:golden_brown_mushroom"
+        },
+        {
+            "item": "waotweaks:golden_red_mushroom"
+        },
+        {
+            "item": "minecraft:bowl"
+        }
+    ],
+    "result": {
+        "item": "waotweaks:golden_mushroom_stew"
+    }
+}

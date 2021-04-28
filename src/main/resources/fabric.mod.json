@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "modid",
+  "version": "${version}",
+
+  "name": "WaoTweaks",
+  "description": "Spices up Minecraft 1.16 a bit",
+  "authors": [
+    "Waoweens",
+    "Skytoon50",
+    "buriqlolol"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/waotweaks/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "online.meowcorp.waotweaks.WaoTweaks"
+    ]
+  },
+  "mixins": [
+    "waotweaks.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

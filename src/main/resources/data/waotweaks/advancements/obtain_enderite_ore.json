@@ -1,0 +1,48 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Hidden in the Islands"
+        },
+        "description": {
+            "text": "Obtain Enderite Ore"
+        },
+        "icon": {
+            "item": "waotweaks:enderite_ore"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "InvEnderiteOre": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "waotweaks:enderite_ore"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "waotweaks:enderite_axe",
+            "waotweaks:enderite_block",
+            "waotweaks:enderite_boots",
+            "waotweaks:enderite_chestplate",
+            "waotweaks:enderite_helmet",
+            "waotweaks:enderite_hoe",
+            "waotweaks:enderite_ingot",
+            "waotweaks:enderite_leggings",
+            "waotweaks:enderite_pickaxe",
+            "waotweaks:enderite_scrap",
+            "waotweaks:enderite_shovel",
+            "waotweaks:enderite_sword"
+        ],
+        "experience": 50
+    },
+    "parent": "waotweaks:root"
+}

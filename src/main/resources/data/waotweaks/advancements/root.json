@@ -1,0 +1,39 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "WaoTweaks"
+        },
+        "description": {
+            "text": "Root of WaoTweaks"
+        },
+        "icon": {
+            "item": "waotweaks:enderite_ingot"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "waotweaks:textures/gui/advancements/backgrounds/enderite_base.png"
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "waotweaks:enderite_dust",
+            "waotweaks:enderite_dust_2",
+            "waotweaks:carrot_steak_sandwich",
+            "waotweaks:enchanted_golden_sandwich",
+            "waotweaks:golden_bread",
+            "waotweaks:golden_brown_mushroom",
+            "waotweaks:golden_red_mushroom",
+            "waotweaks:golden_mushroom_stew",
+            "waotweaks:golden_sandwich",
+            "waotweaks:golden_steak",
+            "waotweaks:steak_sandwich"
+        ]
+    }
+}

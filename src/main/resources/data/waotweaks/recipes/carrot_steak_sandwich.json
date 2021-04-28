@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "CWC",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:bread"
+        },
+        "C": {
+            "item": "minecraft:carrot"
+        },
+        "W": {
+            "item": "minecraft:cooked_beef"
+        }
+    },
+    "result": {
+        "item": "waotweaks:carrot_steak_sandwich",
+        "count": 1
+    }
+}

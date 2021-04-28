@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "minecraft:netherite_helmet"
+    },
+    "addition": {
+        "item": "waotweaks:enderite_ingot"
+    },
+    "result": {
+        "item": "waotweaks:enderite_helmet"
+    }
+}

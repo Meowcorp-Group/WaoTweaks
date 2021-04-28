@@ -1,0 +1,15 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "online.meowcorp.waotweaks.mixin",
+    "compatibilityLevel": "JAVA_8",
+    "mixins": [
+        "EnderiteKnockbackResistance"
+    ],
+    "client": [
+    ],
+    "server": [],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
