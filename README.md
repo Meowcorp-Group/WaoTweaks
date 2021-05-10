@@ -4,6 +4,8 @@
 
 [![Download on CurseForge](https://cf.way2muchnoise.eu/full_476618_downloads.svg)](https://www.curseforge.com/minecraft/mc-mods/waotweaks)
 
+![Download on CurseForge](https://cf.way2muchnoise.eu/full_476618_downloads.svg)
+
 Spices up Minecraft 1.16 a bit
 
 ## Recipes and other info on the [Wiki Page](https://github.com/Waoweens/WaoTweaks/wiki)
