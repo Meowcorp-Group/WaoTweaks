@@ -2,9 +2,9 @@
 
 [![Requires Fabric API](https://i.imgur.com/T0YIGYz.png)](https://www.curseforge.com/minecraft/mc-mods/fabric-api)
 
-[![Download on CurseForge](https://cf.way2muchnoise.eu/full_476618_downloads.svg)](https://www.curseforge.com/minecraft/mc-mods/waotweaks)
+[CurseForge Page](https://www.curseforge.com/minecraft/mc-mods/waotweaks)
 
-![Download on CurseForge](https://cf.way2muchnoise.eu/full_476618_downloads.svg)
+[Modrinth Page](https://modrinth.com/mod/waotweaks)
 
 Spices up Minecraft 1.16 a bit
 
