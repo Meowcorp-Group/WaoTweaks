@@ -18,7 +18,6 @@ import net.minecraft.item.FoodComponent;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
 import net.minecraft.item.ShovelItem;
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.ToolItem;
@@ -71,7 +70,7 @@ public class WaoTweaks implements ModInitializer {
     //Enderite Ingot
     public static final Item ENDERITE_INGOT = new Item(
         new Item
-        .Settings()
+        .Settings().fireproof()
         .group(WaoTweaks.RESOURCES)
     );
 
@@ -88,14 +87,14 @@ public class WaoTweaks implements ModInitializer {
     //Enderite Dust
     public static final Item ENDERITE_DUST = new Item(
         new Item
-        .Settings()
+        .Settings().fireproof()
         .group(WaoTweaks.RESOURCES)
     );
     
     //Enderite Scrap
     public static final Item ENDERITE_SCRAP = new Item(
         new Item
-        .Settings()
+        .Settings().fireproof()
         .group(WaoTweaks.RESOURCES)
     );
 
@@ -112,7 +111,7 @@ public class WaoTweaks implements ModInitializer {
     //NINETEEN DOLLAR FORTNITE CARD
     public static final Item FORTNITE_CARD = new Item(
         new Item
-        .Settings()
+        .Settings().fireproof()
         .maxCount(1)
         .group(WaoTweaks.RESOURCES)
         .rarity(Rarity.UNCOMMON)
@@ -137,23 +136,23 @@ public class WaoTweaks implements ModInitializer {
 
     //Enderite Sword
     public static ToolItem ENDERITE_SWORD = new SwordItem(
-        EnderiteToolMaterial.INSTANCE, 9, -2.4F, new Item.Settings().group(WaoTweaks.TOOLS));
+        EnderiteToolMaterial.INSTANCE, 9, -2.4F, new Item.Settings().fireproof().group(WaoTweaks.TOOLS));
 
     //Enderite Pickaxe
     public static ToolItem ENDERITE_PICKAXE = new PickaxeBase(
-        EnderiteToolMaterial.INSTANCE, 6, -2.8F, new Item.Settings().group(WaoTweaks.TOOLS));
+        EnderiteToolMaterial.INSTANCE, 6, -2.8F, new Item.Settings().fireproof().group(WaoTweaks.TOOLS));
 
     //Enderite Axe
     public static ToolItem ENDERITE_AXE = new AxeBase(
-        EnderiteToolMaterial.INSTANCE, 11, -3, new Item.Settings().group(WaoTweaks.TOOLS));
+        EnderiteToolMaterial.INSTANCE, 11, -3, new Item.Settings().fireproof().group(WaoTweaks.TOOLS));
 
     //Enderite Shovel
     public static ToolItem ENDERITE_SHOVEL = new ShovelItem(
-        EnderiteToolMaterial.INSTANCE, 6.5F, -3, new Item.Settings().group(WaoTweaks.TOOLS));
+        EnderiteToolMaterial.INSTANCE, 6.5F, -3, new Item.Settings().fireproof().group(WaoTweaks.TOOLS));
 
     //Enderite Hoe
     public static ToolItem ENDERITE_HOE = new HoeBase(
-        EnderiteToolMaterial.INSTANCE, 0, 1, new Item.Settings().group(WaoTweaks.TOOLS));
+        EnderiteToolMaterial.INSTANCE, 0, 1, new Item.Settings().fireproof().group(WaoTweaks.TOOLS));
 
     /*
         ENDERITE ARMOR
@@ -298,7 +297,7 @@ public class WaoTweaks implements ModInitializer {
 
         //Enderite Block
         Registry.register(Registry.BLOCK, new Identifier("waotweaks", "enderite_block"), ENDERITE_BLOCK);
-        Registry.register(Registry.ITEM, new Identifier("waotweaks", "enderite_block"), new BlockItem(ENDERITE_BLOCK, new FabricItemSettings().group(WaoTweaks.RESOURCES)));
+        Registry.register(Registry.ITEM, new Identifier("waotweaks", "enderite_block"), new BlockItem(ENDERITE_BLOCK, new FabricItemSettings().fireproof().group(WaoTweaks.RESOURCES)));
 
         //Enderite Dust
         Registry.register(Registry.ITEM, new Identifier("waotweaks", "enderite_dust"), ENDERITE_DUST);
@@ -308,7 +307,7 @@ public class WaoTweaks implements ModInitializer {
 
         //Enderite Ore
         Registry.register(Registry.BLOCK, new Identifier("waotweaks", "enderite_ore"), ENDERITE_ORE);
-        Registry.register(Registry.ITEM, new Identifier("waotweaks", "enderite_ore"), new BlockItem(ENDERITE_ORE, new FabricItemSettings().group(WaoTweaks.RESOURCES)));
+        Registry.register(Registry.ITEM, new Identifier("waotweaks", "enderite_ore"), new BlockItem(ENDERITE_ORE, new FabricItemSettings().fireproof().group(WaoTweaks.RESOURCES)));
 
         //NINETEEN DOLLAR FORTNITE CARD
         Registry.register(Registry.ITEM, new Identifier("waotweaks", "fortnite_card"), FORTNITE_CARD);
