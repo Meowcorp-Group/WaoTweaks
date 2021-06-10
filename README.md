@@ -8,7 +8,7 @@
 
 [Modrinth Page](https://modrinth.com/mod/waotweaks)
 
-### Spices up Minecraft 1.16 a bit
+### Spices up Minecraft 1.17 a bit
 
 ## Recipes and other info on the [Wiki Page](https://github.com/Waoweens/WaoTweaks/wiki)
 ## Features
