@@ -1,27 +1,25 @@
 {
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
-        "title": {
-            "text": "A Fulfilling Meal"
-        },
-        "description": {
-            "text": "Make a Carrot-Steak Sandwich"
-        },
         "icon": {
             "item": "waotweaks:carrot_steak_sandwich"
         },
+        "title": "A Fulfilling Meal",
+        "description": "Make a Carrot-Steak Sandwich",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
+    "parent": "waotweaks:root",
     "criteria": {
         "InvCrtStkSandwich": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "waotweaks:carrot_steak_sandwich"
+                        "items": [
+                            "waotweaks:carrot_steak_sandwich"
+                        ]
                     }
                 ]
             }
@@ -29,6 +27,5 @@
     },
     "rewards": {
         "experience": 50
-    },
-    "parent": "waotweaks:root"
+    }
 }

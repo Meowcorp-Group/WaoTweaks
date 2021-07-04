@@ -1,27 +1,25 @@
 {
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
-        "title": {
-            "text": "Damn, You Really Worked Hard"
-        },
-        "description": {
-            "text": "Create an Enderite Block"
-        },
         "icon": {
             "item": "waotweaks:enderite_block"
         },
+        "title": "Damn, You Really Worked Hard",
+        "description": "Create an Enderite Block",
         "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
+    "parent": "waotweaks:obtain_enderite_dust",
     "criteria": {
         "InvEnderiteBlock": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "waotweaks:enderite_block"
+                        "items": [
+                            "waotweaks:enderite_block"
+                        ]
                     }
                 ]
             }
@@ -29,6 +27,5 @@
     },
     "rewards": {
         "experience": 500
-    },
-    "parent": "waotweaks:obtain_enderite_dust"
+    }
 }
