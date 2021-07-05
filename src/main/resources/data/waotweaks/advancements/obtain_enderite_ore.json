@@ -1,27 +1,25 @@
 {
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
-        "title": {
-            "text": "Hidden in the Islands"
-        },
-        "description": {
-            "text": "Obtain Enderite Ore"
-        },
         "icon": {
             "item": "waotweaks:enderite_ore"
         },
+        "title": "Hidden in the Islands",
+        "description": "Obtain Enderite Ore",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
+    "parent": "waotweaks:root",
     "criteria": {
         "InvEnderiteOre": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "waotweaks:enderite_ore"
+                        "items": [
+                            "waotweaks:enderite_ore"
+                        ]
                     }
                 ]
             }
@@ -43,6 +41,5 @@
             "waotweaks:enderite_sword"
         ],
         "experience": 50
-    },
-    "parent": "waotweaks:root"
+    }
 }

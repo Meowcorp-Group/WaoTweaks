@@ -1,27 +1,25 @@
 {
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
-        "title": {
-            "text": "A Very Serious Dedication"
-        },
-        "description": {
-            "text": "Upgrade a Hoe to Enderite, and then reevaluate your life choices"
-        },
         "icon": {
             "item": "waotweaks:enderite_hoe"
         },
+        "title": "A Very Serious Dedication",
+        "description": "Upgrade a Hoe to Enderite, and then reevaluate your life choices",
         "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
+    "parent": "waotweaks:obtain_enderite_dust",
     "criteria": {
         "InvEnderiteHoe2": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "waotweaks:enderite_hoe"
+                        "items": [
+                            "waotweaks:enderite_hoe"
+                        ]
                     }
                 ]
             }
@@ -29,6 +27,5 @@
     },
     "rewards": {
         "experience": 200
-    },
-    "parent": "waotweaks:obtain_enderite_dust"
+    }
 }

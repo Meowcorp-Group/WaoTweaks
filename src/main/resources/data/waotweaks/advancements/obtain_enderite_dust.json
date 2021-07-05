@@ -1,27 +1,25 @@
 {
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
-        "title": {
-            "text": "Dust 'till the End!"
-        },
-        "description": {
-            "text": "Smelt or Blast Enderite Ore to get Enderite Dust"
-        },
         "icon": {
             "item": "waotweaks:enderite_dust"
         },
+        "title": "Dust 'till the End!",
+        "description": "Smelt or Blast Enderite Ore to get Enderite Dust",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
+    "parent": "waotweaks:obtain_enderite_ore",
     "criteria": {
         "InvEnderiteDust": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "waotweaks:enderite_dust"
+                        "items": [
+                            "waotweaks:enderite_dust"
+                        ]
                     }
                 ]
             }
@@ -29,6 +27,5 @@
     },
     "rewards": {
         "experience": 100
-    },
-    "parent": "waotweaks:obtain_enderite_ore"
+    }
 }

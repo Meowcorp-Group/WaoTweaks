@@ -1,27 +1,25 @@
 {
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
-        "title": {
-            "text": "Enderium?"
-        },
-        "description": {
-            "text": "Fun fact: The mod creator accidentally named Enderite \"Enderium\" because he played too much SF4"
-        },
         "icon": {
             "item": "waotweaks:enderite_ingot"
         },
+        "title": "Enderium?",
+        "description": "Fun fact: The mod creator accidentally named Enderite \"Enderium\" because he played too much SF4",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": true
     },
+    "parent": "waotweaks:obtain_enderite_dust",
     "criteria": {
         "InvEnderiteRenameEnderium": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "waotweaks:enderite_ingot",
+                        "items": [
+                            "waotweaks:enderite_ingot"
+                        ],
                         "nbt": "{RepairCost: 0, display: {Name: '{\"text\":\"Enderium Ingot\"}'}}"
                     }
                 ]
@@ -30,6 +28,5 @@
     },
     "rewards": {
         "experience": 69
-    },
-    "parent": "waotweaks:obtain_enderite_dust"
+    }
 }

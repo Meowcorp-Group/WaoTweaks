@@ -1,34 +1,31 @@
 {
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
-        "title": {
-            "text": "$10,000 Sandwich"
-        },
-        "description": {
-            "text": "Craft the Enchanted Golden Sandwich"
-        },
         "icon": {
-            "item": "waotweaks:enchanted_golden_sandwich"
+            "item": "waotweaks:enchanted_golen_sandwich"
         },
+        "title": "$10,000 Sandwich",
+        "description": "Craft the Enchanted Golden Sandwich",
         "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
+    "parent": "waotweaks:obtain_carrot_steak_sandwich",
     "criteria": {
         "InvEGSandwich": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "waotweaks:enchanted_golden_sandwich"
+                        "items": [
+                            "waotweaks:enchanted_golden_sandwich"
+                        ]
                     }
                 ]
             }
         }
     },
     "rewards": {
-        "experience": 150
-    },
-    "parent": "waotweaks:obtain_carrot_steak_sandwich"
+        "experience": 50
+    }
 }

@@ -132,8 +132,13 @@ public class WaoTweaks implements ModInitializer {
 
     //Generate Enderite Ore in THE_END
     public static final ConfiguredFeature<?, ?> ORE_ENDERITE_END = Feature.ORE
-            .configure(new OreFeatureConfig(new BlockMatchRuleTest(Blocks.END_STONE), WaoTweaks.ENDERITE_ORE.getDefaultState(), 4))
-            .decorate(Decorator.RANGE.configure(new RangeDecoratorConfig(UniformHeightProvider.create(YOffset.fixed(0), YOffset.fixed(40))))).spreadHorizontally().repeat(1);
+            .configure(new OreFeatureConfig(
+                    new BlockMatchRuleTest(Blocks.END_STONE),
+                    WaoTweaks.ENDERITE_ORE.getDefaultState(), 4))
+            .range(new RangeDecoratorConfig(
+                    UniformHeightProvider.create(YOffset.fixed(0), YOffset.fixed(40))))
+            .spreadHorizontally()
+            .repeat(20);
 
 
     /*

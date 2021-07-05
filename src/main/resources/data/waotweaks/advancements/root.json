@@ -1,20 +1,15 @@
 {
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
-        "title": {
-            "text": "WaoTweaks"
-        },
-        "description": {
-            "text": "Root of WaoTweaks"
-        },
         "icon": {
             "item": "waotweaks:enderite_ingot"
         },
+        "title": "WaoTweaks",
+        "description": "Root of WaoTweaks",
+        "background": "waotweaks:textures/gui/advancements/backgrounds/enderite_base.png",
         "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false,
-        "background": "waotweaks:textures/gui/advancements/backgrounds/enderite_base.png"
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
     },
     "criteria": {
         "tick": {
