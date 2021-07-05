@@ -21,7 +21,6 @@ import net.minecraft.util.registry.Registry;
 import net.minecraft.util.registry.RegistryKey;
 import net.minecraft.world.gen.GenerationStep;
 import net.minecraft.world.gen.YOffset;
-import net.minecraft.world.gen.decorator.Decorator;
 import net.minecraft.world.gen.decorator.RangeDecoratorConfig;
 import net.minecraft.world.gen.feature.ConfiguredFeature;
 import net.minecraft.world.gen.feature.Feature;
@@ -138,7 +137,7 @@ public class WaoTweaks implements ModInitializer {
             .range(new RangeDecoratorConfig(
                     UniformHeightProvider.create(YOffset.fixed(0), YOffset.fixed(40))))
             .spreadHorizontally()
-            .repeat(20);
+            .repeat(1);
 
 
     /*
