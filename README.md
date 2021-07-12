@@ -1,4 +1,5 @@
 # WaoTweaks
+## Changes I would made to Minecraft
 
 [![Requires Fabric API](https://i.imgur.com/T0YIGYz.png)](https://www.curseforge.com/minecraft/mc-mods/fabric-api)
 
@@ -6,4 +7,4 @@
 
 [Modrinth Page](https://modrinth.com/mod/waotweaks)
 
-## Changes I would made to Minecraft
+im working on a new mod description
