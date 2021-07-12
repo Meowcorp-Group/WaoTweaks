@@ -33,7 +33,7 @@ public class EnderiteArmorMaterial implements ArmorMaterial {
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(WaoTweaks.ENDERITE_INGOT);
+        return Ingredient.ofItems(Enderite.ENDERITE_INGOT);
     }
 
     @Override

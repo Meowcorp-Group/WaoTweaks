@@ -1,8 +1,6 @@
 {
-    "itemGroup.waotweaks.resources": "WaoTweaks: Resources",
-    "itemGroup.waotweaks.tools": "WaoTweaks: Tools",
-    "itemGroup.waotweaks.armor": "WaoTweaks: Armor",
-    "itemGroup.waotweaks.foods": "WaoTweaks: Foods",
+    "itemGroup.waotweaks.enderite": "WaoTweaks: Enderite",
+    "itemGroup.waotweaks.food": "WaoTweaks: Food",
     "item.waotweaks.enderite_ingot": "Enderite Ingot",
     "block.waotweaks.enderite_block": "Block of Enderite",
     "block.waotweaks.enderite_ore": "Enderite Ore",

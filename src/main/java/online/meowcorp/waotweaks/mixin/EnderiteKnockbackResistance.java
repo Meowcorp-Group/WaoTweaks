@@ -21,7 +21,7 @@ import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.Item;
 
-import online.meowcorp.waotweaks.RegisterEnderiteArmor;
+import online.meowcorp.waotweaks.EnderiteArmor;
 
 @Mixin (ArmorItem.class)
 public abstract class EnderiteKnockbackResistance {
@@ -33,7 +33,7 @@ public abstract class EnderiteKnockbackResistance {
     private void constructor(ArmorMaterial material, EquipmentSlot slot, Item.Settings settings, CallbackInfo ci) {
         UUID uUID = MODIFIERS[slot.getEntitySlotId()];
 
-        if (material == RegisterEnderiteArmor.ENDERITE_ARMOR_MATERIAL) {
+        if (material == EnderiteArmor.ENDERITE_ARMOR_MATERIAL) {
             ImmutableMultimap.Builder<EntityAttribute, EntityAttributeModifier> builder = ImmutableMultimap.builder();
 
             this.attributeModifiers.forEach(builder::put);
