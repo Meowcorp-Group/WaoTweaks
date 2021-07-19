@@ -4,7 +4,7 @@
             "item": "waotweaks:voidorite_block"
         },
         "title": "Touch Some Grass",
-        "description": "Create an Voidorite Block",
+        "description": "Create a Voidorite Block",
         "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": true,
