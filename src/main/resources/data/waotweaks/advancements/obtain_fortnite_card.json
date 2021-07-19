@@ -10,7 +10,7 @@
         "announce_to_chat": true,
         "hidden": true
     },
-    "parent": "waotweaks:obtain_enderite_block",
+    "parent": "waotweaks:obtain_voidorite_block",
     "criteria": {
         "InvFortniteCard": {
             "trigger": "minecraft:inventory_changed",

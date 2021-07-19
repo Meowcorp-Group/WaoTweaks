@@ -3,8 +3,8 @@ package online.meowcorp.waotweaks;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
-public class EnderiteToolMaterial implements ToolMaterial {
-    public static final EnderiteToolMaterial INSTANCE = new EnderiteToolMaterial();
+public class VoidoriteToolMaterial implements ToolMaterial {
+    public static final VoidoriteToolMaterial INSTANCE = new VoidoriteToolMaterial();
 
     @Override
     public int getDurability() {
@@ -33,7 +33,7 @@ public class EnderiteToolMaterial implements ToolMaterial {
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(WaoTweaks.ENDERITE_INGOT);
+        return Ingredient.ofItems(Voidorite.VOIDORITE_INGOT);
     }
 
 }

@@ -16,22 +16,22 @@ import net.minecraft.world.gen.feature.Feature;
 import net.minecraft.world.gen.feature.OreFeatureConfig;
 import net.minecraft.world.gen.heightprovider.UniformHeightProvider;
 
-public class EnderiteOreGen {
-    //Generate Enderite Ore in THE_END
-    public static final ConfiguredFeature<?, ?> ORE_ENDERITE_END = Feature.ORE
+public class VoidoriteOreGen {
+    //Generate Voidorite Ore in THE_END
+    public static final ConfiguredFeature<?, ?> ORE_VOIDORITE_END = Feature.ORE
             .configure(new OreFeatureConfig(
                     new BlockMatchRuleTest(Blocks.END_STONE),
-                    Enderite.ENDERITE_ORE.getDefaultState(), 4))
+                    Voidorite.VOIDORITE_ORE.getDefaultState(), 4))
             .range(new RangeDecoratorConfig(
                     UniformHeightProvider.create(YOffset.fixed(0), YOffset.fixed(40))))
             .spreadHorizontally()
             .repeat(1);
 
     public static void register() {
-        //Generate Enderite Ore in THE_END
-        RegistryKey<ConfiguredFeature<?, ?>> oreEnderiteEnd = RegistryKey.of(Registry.CONFIGURED_FEATURE_KEY,
-                new Identifier("waotweaks", "ore_enderite_end"));
-        Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, oreEnderiteEnd.getValue(), ORE_ENDERITE_END);
-        BiomeModifications.addFeature(BiomeSelectors.foundInTheEnd(), GenerationStep.Feature.UNDERGROUND_ORES, oreEnderiteEnd);
+        //Generate Voidorite Ore in THE_END
+        RegistryKey<ConfiguredFeature<?, ?>> oreVoidoriteEnd = RegistryKey.of(Registry.CONFIGURED_FEATURE_KEY,
+                new Identifier("waotweaks", "ore_voidorite_end"));
+        Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, oreVoidoriteEnd.getValue(), ORE_VOIDORITE_END);
+        BiomeModifications.addFeature(BiomeSelectors.foundInTheEnd(), GenerationStep.Feature.UNDERGROUND_ORES, oreVoidoriteEnd);
     }
 }

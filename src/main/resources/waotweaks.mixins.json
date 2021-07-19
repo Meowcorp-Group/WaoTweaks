@@ -4,7 +4,7 @@
     "package": "online.meowcorp.waotweaks.mixin",
     "compatibilityLevel": "JAVA_16",
     "mixins": [
-        "EnderiteKnockbackResistance"
+      "VoidoriteKnockbackResistance"
     ],
     "client": [
     ],

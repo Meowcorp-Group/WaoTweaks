@@ -1,11 +1,11 @@
 {
     "display": {
         "icon": {
-            "item": "waotweaks:enderite_ingot"
+            "item": "waotweaks:voidorite_ingot"
         },
         "title": "WaoTweaks",
         "description": "Root of WaoTweaks",
-        "background": "waotweaks:textures/gui/advancements/backgrounds/enderite_base.png",
+        "background": "waotweaks:textures/gui/advancements/backgrounds/voidorite_base.png",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": false,
@@ -18,8 +18,8 @@
     },
     "rewards": {
         "recipes": [
-            "waotweaks:enderite_dust",
-            "waotweaks:enderite_dust_2",
+            "waotweaks:voidorite_dust",
+            "waotweaks:voidorite_dust_2",
             "waotweaks:carrot_steak_sandwich",
             "waotweaks:enchanted_golden_sandwich",
             "waotweaks:golden_bread",

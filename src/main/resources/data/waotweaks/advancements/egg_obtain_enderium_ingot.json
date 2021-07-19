@@ -1,24 +1,24 @@
 {
     "display": {
         "icon": {
-            "item": "waotweaks:enderite_ingot"
+            "item": "waotweaks:voidorite_ingot"
         },
         "title": "Enderium?",
-        "description": "Fun fact: The mod creator accidentally named Enderite \"Enderium\" because he played too much SF4",
+        "description": "Fun fact: The mod creator accidentally named Voidorite \"Enderium\" because he played too much SF4",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": true
     },
-    "parent": "waotweaks:obtain_enderite_dust",
+    "parent": "waotweaks:obtain_voidorite_dust",
     "criteria": {
-        "InvEnderiteRenameEnderium": {
+        "InvVoidoriteRenameEnderium": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
                         "items": [
-                            "waotweaks:enderite_ingot"
+                            "waotweaks:voidorite_ingot"
                         ],
                         "nbt": "{RepairCost: 0, display: {Name: '{\"text\":\"Enderium Ingot\"}'}}"
                     }

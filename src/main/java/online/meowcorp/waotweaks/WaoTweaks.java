@@ -7,10 +7,10 @@ import net.minecraft.util.Identifier;
 
 public class WaoTweaks implements ModInitializer {
 
-    //Item Group ENDERITE
-    public static final ItemGroup ENDERITE = FabricItemGroupBuilder.build(
-            new Identifier("waotweaks", "enderite"),
-            () -> new ItemStack(Enderite.ENDERITE_INGOT)
+    //Item Group VOIDORITE
+    public static final ItemGroup VOIDORITE = FabricItemGroupBuilder.build(
+            new Identifier("waotweaks", "voidorite"),
+            () -> new ItemStack(Voidorite.VOIDORITE_INGOT)
     );
 
     //Item Group FOOD
@@ -23,9 +23,9 @@ public class WaoTweaks implements ModInitializer {
     public void onInitialize() {
 
         //Register other classes
-        Enderite.register();
-        EnderiteOreGen.register();
-        EnderiteArmor.register();
+        Voidorite.register();
+        VoidoriteOreGen.register();
+        VoidoriteArmor.register();
         Food.register();
         EasterEggs.register();
 

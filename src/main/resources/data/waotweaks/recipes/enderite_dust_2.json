@@ -1,9 +1,0 @@
-{
-    "type": "minecraft:blasting",
-    "ingredient": {
-        "item": "waotweaks:enderite_ore"
-    },
-    "result": "waotweaks:enderite_dust",
-    "experience": 4,
-    "cookingtime": 100
-}
