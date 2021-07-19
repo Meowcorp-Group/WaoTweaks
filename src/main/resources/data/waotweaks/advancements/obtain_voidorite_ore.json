@@ -1,0 +1,45 @@
+{
+    "display": {
+        "icon": {
+            "item": "waotweaks:voidorite_ore"
+        },
+        "title": "Hidden in the Islands",
+        "description": "Obtain Voidorite Ore",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "waotweaks:root",
+    "criteria": {
+        "InvVoidoriteOre": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "waotweaks:voidorite_ore"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "waotweaks:voidorite_axe",
+            "waotweaks:voidorite_block",
+            "waotweaks:voidorite_boots",
+            "waotweaks:voidorite_chestplate",
+            "waotweaks:voidorite_helmet",
+            "waotweaks:voidorite_hoe",
+            "waotweaks:voidorite_ingot",
+            "waotweaks:voidorite_leggings",
+            "waotweaks:voidorite_pickaxe",
+            "waotweaks:voidorite_scrap",
+            "waotweaks:voidorite_shovel",
+            "waotweaks:voidorite_sword"
+        ],
+        "experience": 50
+    }
+}

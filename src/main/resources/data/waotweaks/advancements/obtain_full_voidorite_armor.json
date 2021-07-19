@@ -1,0 +1,46 @@
+{
+    "display": {
+        "icon": {
+            "item": "waotweaks:voidorite_chestplate"
+        },
+        "title": "Cover Me in Dust",
+        "description": "Obtain full Voidorite Armor",
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "waotweaks:obtain_voidorite_dust",
+    "criteria": {
+        "InvFullVoidorite": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "waotweaks:voidorite_helmet"
+                        ]
+                    },
+                    {
+                        "items": [
+                            "waotweaks:voidorite_chestplate"
+                        ]
+                    },
+                    {
+                        "items": [
+                            "waotweaks:voidorite_leggings"
+                        ]
+                    },
+                    {
+                        "items": [
+                            "waotweaks:voidorite_boots"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 250
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "display": {
+        "icon": {
+            "item": "waotweaks:voidorite_block"
+        },
+        "title": "Touch Some Grass",
+        "description": "Create an Voidorite Block",
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "waotweaks:obtain_voidorite_dust",
+    "criteria": {
+        "InvVoidoriteBlock": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "waotweaks:voidorite_block"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 50
+    }
+}

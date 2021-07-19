@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "waotweaks:voidorite_ore"
+    },
+    "result": "waotweaks:voidorite_dust",
+    "experience": 4,
+    "cookingtime": 200
+}

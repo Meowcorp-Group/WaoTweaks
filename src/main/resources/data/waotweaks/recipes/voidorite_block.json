@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "waotweaks:voidorite_ingot"
+        },
+        {
+            "item": "waotweaks:voidorite_ingot"
+        },
+        {
+            "item": "waotweaks:voidorite_ingot"
+        },
+        {
+            "item": "waotweaks:voidorite_ingot"
+        },
+        {
+            "item": "waotweaks:voidorite_ingot"
+        },
+        {
+            "item": "waotweaks:voidorite_ingot"
+        },
+        {
+            "item": "waotweaks:voidorite_ingot"
+        },
+        {
+            "item": "waotweaks:voidorite_ingot"
+        },
+        {
+            "item": "waotweaks:voidorite_ingot"
+        }
+    ],
+    "result": {
+        "item": "waotweaks:voidorite_block",
+        "count": 1
+    }
+}
