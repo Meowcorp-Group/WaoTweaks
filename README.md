@@ -1,7 +1,7 @@
 # WaoTweaks
 ## Changes I would made to Minecraft
 
-[<img src="https://i.imgur.com/Ol1Tcf8.png" width="215">](https://www.curseforge.com/minecraft/mc-mods/fabric-api)
+[![Requires Fabric API](https://i.imgur.com/T0YIGYz.png)](https://www.curseforge.com/minecraft/mc-mods/fabric-api)
 
 [<img src="https://cf.way2muchnoise.eu/title/waotweaks.svg" alt="CurseForge Page">](https://www.curseforge.com/minecraft/mc-mods/waotweaks)
 [<img src="https://cf.way2muchnoise.eu/versions/waotweaks_latest.svg?sanitize=true" alt="CurseForge Page">](https://www.curseforge.com/minecraft/mc-mods/waotweaks)
