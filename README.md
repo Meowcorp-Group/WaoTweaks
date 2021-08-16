@@ -15,6 +15,8 @@
 ## Voidorite
 [Image Pending]
 
+Voidorite is currently Enderite. We are still making textures.
+
 ## Colored Redstone Lamps
 ![Colored Redstone Lamps](https://i.imgur.com/rMxgq7d.png)
 (The colors look horrible, I know. I'm working on new textures.)
