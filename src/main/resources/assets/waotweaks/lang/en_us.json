@@ -1,6 +1,7 @@
 {
     "itemGroup.waotweaks.voidorite": "WaoTweaks: Voidorite",
     "itemGroup.waotweaks.food": "WaoTweaks: Food",
+    "itemGroup.waotweaks.lamps": "WaoTweaks: Lamps",
     "item.waotweaks.voidorite_ingot": "Voidorite Ingot",
     "block.waotweaks.voidorite_block": "Block of Voidorite",
     "block.waotweaks.voidorite_ore": "Voidorite Ore",
@@ -25,5 +26,20 @@
     "item.waotweaks.golden_steak": "Golden Steak",
     "item.waotweaks.golden_sandwich": "Golden Sandwich",
     "item.waotweaks.enchanted_golden_sandwich": "Enchanted Golden Sandwich",
-    "item.waotweaks.gods_golden_sword": "God's Golden Sword"
+    "item.waotweaks.gods_golden_sword": "God's Golden Sword",
+    "block.waotweaks.white_colored_lamp": "White Colored Redstone Lamp",
+    "block.waotweaks.orange_colored_lamp": "Orange Colored Redstone Lamp",
+    "block.waotweaks.magenta_colored_lamp": "Magenta Colored Redstone Lamp",
+    "block.waotweaks.light_blue_colored_lamp": "Light Blue Colored Redstone Lamp",
+    "block.waotweaks.yellow_colored_lamp": "Yellow Colored Redstone Lamp",
+    "block.waotweaks.lime_colored_lamp": "Lime Colored Redstone Lamp",
+    "block.waotweaks.pink_colored_lamp": "Pink Colored Redstone Lamp",
+    "block.waotweaks.gray_colored_lamp": "Gray Colored Redstone Lamp",
+    "block.waotweaks.light_gray_colored_lamp": "Light Gray Colored Redstone Lamp",
+    "block.waotweaks.cyan_colored_lamp": "Cyan Colored Redstone Lamp",
+    "block.waotweaks.purple_colored_lamp": "Purple Colored Redstone Lamp",
+    "block.waotweaks.blue_colored_lamp": "Blue Colored Redstone Lamp",
+    "block.waotweaks.brown_colored_lamp": "Brown Colored Redstone Lamp",
+    "block.waotweaks.green_colored_lamp": "Green Colored Redstone Lamp",
+    "block.waotweaks.red_colored_lamp": "Red Colored Redstone Lamp"
 }

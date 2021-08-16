@@ -23,6 +23,12 @@ public class WaoTweaks implements ModInitializer {
             () -> new ItemStack(Food.STEAK_SANDWICH)
     );
 
+    //Itme Group LAMPS
+    public static final ItemGroup LAMPS = FabricItemGroupBuilder.build(
+            new Identifier("waotweaks", "lamps"),
+            () -> new ItemStack(ColoredLamps.COLORED_LAMP2)
+    );
+
     @Override
     public void onInitialize() {
 
