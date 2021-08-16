@@ -1,5 +1,5 @@
 # WaoTweaks
-## Changes I would made to Minecraft
+## Changes I would make to Minecraft
 
 [![Requires Fabric API](https://i.imgur.com/T0YIGYz.png)](https://www.curseforge.com/minecraft/mc-mods/fabric-api)
 
