@@ -7,6 +7,16 @@
 
 [Modrinth Page](https://modrinth.com/mod/waotweaks)
 
-#  
+# Features
+## Voidorite
+[Image Pending]
 
-im working on a new mod description
+## Colored Redstone Lamps
+![Colored Redstone Lamps](https://i.imgur.com/rMxgq7d.png)
+(The colors look horrible, I know. I'm working on new textures.)
+
+## Sandwiches
+![Sandwiches](https://i.imgur.com/15m0nn9.png)
+
+## Golden Foods
+![Golden Foods](https://i.imgur.com/59nFnWV.png)
