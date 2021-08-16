@@ -1,4 +1,4 @@
-package online.meowcorp.waotweaks;
+package online.meowcorp.waotweaks.ItemBase;
 
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;

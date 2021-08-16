@@ -1,4 +1,4 @@
-package online.meowcorp.waotweaks;
+package online.meowcorp.waotweaks.voidorite;
 
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorItem;
@@ -6,6 +6,7 @@ import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
+import online.meowcorp.waotweaks.WaoTweaks;
 
 public class VoidoriteArmor {
     public static final ArmorMaterial VOIDORITE_ARMOR_MATERIAL = new VoidoriteArmorMaterial();

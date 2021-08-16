@@ -1,4 +1,4 @@
-package online.meowcorp.waotweaks;
+package online.meowcorp.waotweaks.voidorite;
 
 import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;

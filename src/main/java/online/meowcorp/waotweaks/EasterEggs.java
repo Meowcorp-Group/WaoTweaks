@@ -6,6 +6,7 @@ import net.minecraft.item.ToolItem;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
+import online.meowcorp.waotweaks.ItemBase.GodSwordMaterial;
 
 public class EasterEggs {
 

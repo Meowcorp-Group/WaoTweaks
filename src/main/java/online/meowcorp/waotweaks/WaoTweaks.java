@@ -4,6 +4,10 @@ import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
+import online.meowcorp.waotweaks.potions.Pots;
+import online.meowcorp.waotweaks.voidorite.Voidorite;
+import online.meowcorp.waotweaks.voidorite.VoidoriteArmor;
+import online.meowcorp.waotweaks.voidorite.VoidoriteOreGen;
 
 public class WaoTweaks implements ModInitializer {
 
@@ -28,7 +32,10 @@ public class WaoTweaks implements ModInitializer {
         VoidoriteArmor.register();
         Food.register();
         EasterEggs.register();
+        Extras.register();
+        Pots.register();
 
+        System.out.println("It appears that WaoTweaks is installed.");
     }
 
 }
