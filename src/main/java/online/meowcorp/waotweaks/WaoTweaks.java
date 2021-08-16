@@ -34,6 +34,7 @@ public class WaoTweaks implements ModInitializer {
         EasterEggs.register();
         Extras.register();
         Pots.register();
+        ColoredLamps.register();
 
         System.out.println("It appears that WaoTweaks is installed.");
     }

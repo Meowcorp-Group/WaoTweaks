@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "waotweaks:block/red_colored_lamp"
+    },
+    "lit=true": {
+      "model": "waotweaks:block/red_colored_lamp_on"
+    }
+  }
+}

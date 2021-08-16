@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "waotweaks:block/lime_colored_lamp"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "waotweaks:block/magenta_colored_lamp"
+    },
+    "lit=true": {
+      "model": "waotweaks:block/magenta_colored_lamp_on"
+    }
+  }
+}
