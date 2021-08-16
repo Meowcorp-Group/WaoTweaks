@@ -1,7 +1,7 @@
 # WaoTweaks
 ## Changes I would made to Minecraft
 
-[![Requires Fabric API](https://i.imgur.com/T0YIGYz.png)](https://www.curseforge.com/minecraft/mc-mods/fabric-api)
+[<img src="https://i.imgur.com/Ol1Tcf8.png" width="200">](https://www.curseforge.com/minecraft/mc-mods/fabric-api)
 
 [![CurseForge Page](https://cf.way2muchnoise.eu/title/waotweaks.svg?sanitize=true)](https://www.curseforge.com/minecraft/mc-mods/waotweaks)
 [![CurseForge Page](https://cf.way2muchnoise.eu/versions/waotweaks_latest.svg?sanitize=true)](https://www.curseforge.com/minecraft/mc-mods/waotweaks)
@@ -25,4 +25,4 @@ Voidorite is currently Enderite. We are still making textures.
 ![Sandwiches](https://i.imgur.com/15m0nn9.png)
 
 ## Golden Foods
-![Golden Foods](https://i.imgur.com/59nFnWV.png)    
+![Golden Foods](https://i.imgur.com/59nFnWV.png)
