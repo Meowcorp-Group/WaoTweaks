@@ -20,6 +20,6 @@ public class BrewingRecipeRegistryInjector implements BrewingRecipeRegistryInvok
         BrewingRecipeRegistryInvoker.invokeRegisterPotionRecipe(Pots.LEVITATION, Items.REDSTONE, Pots.LONG_LEVITATION);
 
         //Strong Levitation
-        BrewingRecipeRegistryInvoker.invokeRegisterPotionRecipe(Pots.LEVITATION, Items.GLOWSTONE, Pots.STRONG_LEVITATION);
+        BrewingRecipeRegistryInvoker.invokeRegisterPotionRecipe(Pots.LEVITATION, Items.GLOWSTONE_DUST, Pots.STRONG_LEVITATION);
     }
 }
