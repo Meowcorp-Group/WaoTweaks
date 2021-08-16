@@ -20,7 +20,7 @@ Voidorite textures are currently unfinished. It currently looks like enderite.
 
 ## Colored Redstone Lamps
 ![Colored Redstone Lamps](https://i.imgur.com/rMxgq7d.png)
-(The colors look horrible, I know. I'm working on new textures.)
+(The textures look horrible, I know. I'm working on new textures.)
 
 ## Sandwiches
 ![Sandwiches](https://i.imgur.com/15m0nn9.png)
