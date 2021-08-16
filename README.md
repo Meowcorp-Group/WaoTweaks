@@ -16,7 +16,7 @@
 ## Voidorite
 [Image Pending]
 
-Voidorite textures are currently unfinished.
+Voidorite textures are currently unfinished. It currently looks like enderite.
 
 ## Colored Redstone Lamps
 ![Colored Redstone Lamps](https://i.imgur.com/rMxgq7d.png)
