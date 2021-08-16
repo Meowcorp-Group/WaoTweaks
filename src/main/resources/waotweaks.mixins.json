@@ -4,7 +4,9 @@
     "package": "online.meowcorp.waotweaks.mixin",
     "compatibilityLevel": "JAVA_16",
     "mixins": [
-      "VoidoriteKnockbackResistance"
+      "VoidoriteKnockbackResistance",
+        "BrewingRecipeRegistryInvoker",
+        "BrewingRecipeRegistryInjector"
     ],
     "client": [
     ],
