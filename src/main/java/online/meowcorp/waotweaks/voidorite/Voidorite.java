@@ -60,6 +60,16 @@ public class Voidorite {
                         .strength(30, 1200.0f)
         );
 
+        //Void Gem Ore
+        public static final Block VOID_GEM_ORE = new Block(
+                FabricBlockSettings
+                        .of(Material.STONE)
+                        .breakByHand(false)
+                        .breakByTool(FabricToolTags.PICKAXES, 4)
+                        .requiresTool()
+                        .strength(30, 1200f)
+        );
+
         /*
         VOIDORITE TOOLS
                          */
@@ -103,6 +113,10 @@ public class Voidorite {
         //Voidorite Ore
         Registry.register(Registry.BLOCK, new Identifier("waotweaks", "voidorite_ore"), VOIDORITE_ORE);
         Registry.register(Registry.ITEM, new Identifier("waotweaks", "voidorite_ore"), new BlockItem(VOIDORITE_ORE, new FabricItemSettings().fireproof().group(WaoTweaks.VOIDORITE)));
+
+        //Void Gem Ore
+        Registry.register(Registry.BLOCK, new Identifier("waotweaks", "void_gem_ore"), VOID_GEM_ORE);
+        Registry.register(Registry.ITEM, new Identifier("waotweaks", "void_gem_ore"), new BlockItem(VOID_GEM_ORE, new FabricItemSettings().fireproof().group(WaoTweaks.VOIDORITE)));
 
         //Voidorite Sword
         Registry.register(Registry.ITEM, new Identifier("waotweaks", "voidorite_sword"), VOIDORITE_SWORD);

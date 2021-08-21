@@ -10,15 +10,6 @@ import online.meowcorp.waotweaks.ItemBase.GodSwordMaterial;
 
 public class EasterEggs {
 
-    //NINETEEN DOLLAR FORTNITE CARD
-    public static final Item FORTNITE_CARD = new Item(
-            new Item
-                    .Settings()
-                    .fireproof()
-                    .maxCount(1)
-                    .rarity(Rarity.UNCOMMON)
-    );
-
     //God's golden sword
     public static ToolItem GODS_GOLDEN_SWORD = new SwordItem(
             GodSwordMaterial.INSTANCE, 2147483647, 2147483647.0F,
@@ -28,9 +19,6 @@ public class EasterEggs {
     );
 
     public static void register() {
-
-        //NINETEEN DOLLAR FORTNITE CARD
-        Registry.register(Registry.ITEM, new Identifier("waotweaks", "fortnite_card"), FORTNITE_CARD);
 
         //God's golden sword
         Registry.register(Registry.ITEM, new Identifier("waotweaks", "gods_golden_sword"), GODS_GOLDEN_SWORD);
