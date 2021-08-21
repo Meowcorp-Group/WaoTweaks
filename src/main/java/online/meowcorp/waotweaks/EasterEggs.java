@@ -9,7 +9,6 @@ import net.minecraft.util.registry.Registry;
 import online.meowcorp.waotweaks.ItemBase.GodSwordMaterial;
 
 public class EasterEggs {
-
     //God's golden sword
     public static ToolItem GODS_GOLDEN_SWORD = new SwordItem(
             GodSwordMaterial.INSTANCE, 2147483647, 2147483647.0F,
@@ -19,7 +18,6 @@ public class EasterEggs {
     );
 
     public static void register() {
-
         //God's golden sword
         Registry.register(Registry.ITEM, new Identifier("waotweaks", "gods_golden_sword"), GODS_GOLDEN_SWORD);
 
