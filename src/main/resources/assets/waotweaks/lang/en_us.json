@@ -2,9 +2,8 @@
     "itemGroup.waotweaks.voidorite": "WaoTweaks: Voidorite",
     "itemGroup.waotweaks.food": "WaoTweaks: Food",
     "itemGroup.waotweaks.lamps": "WaoTweaks: Lamps",
+
     "item.waotweaks.voidorite_ingot": "Voidorite Ingot",
-    "block.waotweaks.voidorite_block": "Block of Voidorite",
-    "block.waotweaks.voidorite_ore": "Voidorite Ore",
     "item.waotweaks.voidorite_dust": "Voidorite Dust",
     "item.waotweaks.voidorite_scrap": "Voidorite Scrap",
     "item.waotweaks.voidorite_sword": "Voidorite Sword",
@@ -26,6 +25,11 @@
     "item.waotweaks.golden_sandwich": "Golden Sandwich",
     "item.waotweaks.enchanted_golden_sandwich": "Enchanted Golden Sandwich",
     "item.waotweaks.gods_golden_sword": "God's Golden Sword",
+
+    "block.waotweaks.voidorite_block": "Block of Voidorite",
+    "block.waotweaks.voidorite_ore": "Voidorite Ore",
+    "block.waotweaks.void_gem_ore": "The quick brown fox jumps over the lazy dog",
+
     "block.waotweaks.white_colored_lamp": "White Colored Redstone Lamp",
     "block.waotweaks.orange_colored_lamp": "Orange Colored Redstone Lamp",
     "block.waotweaks.magenta_colored_lamp": "Magenta Colored Redstone Lamp",
