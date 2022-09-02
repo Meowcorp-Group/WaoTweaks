@@ -1,4 +1,4 @@
-package online.meowcorp.waotweaks;
+package net.meowcorp.waotweaks;
 
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
@@ -7,7 +7,7 @@ import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
-import online.meowcorp.waotweaks.ItemBase.ItemGlint;
+import net.meowcorp.waotweaks.ItemBase.ItemGlint;
 
 public class Food {
 

@@ -1,4 +1,4 @@
-package online.meowcorp.waotweaks.mixin;
+package net.meowcorp.waotweaks.mixin;
 
 import net.minecraft.item.Item;
 import net.minecraft.potion.Potion;

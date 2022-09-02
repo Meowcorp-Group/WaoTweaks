@@ -21,7 +21,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "online.meowcorp.waotweaks.WaoTweaks"
+      "net.meowcorp.waotweaks.WaoTweaks"
     ]
   },
   "mixins": [

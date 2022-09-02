@@ -1,12 +1,12 @@
 {
     "required": true,
     "minVersion": "0.8",
-    "package": "online.meowcorp.waotweaks.mixin",
+    "package": "net.meowcorp.waotweaks",
     "compatibilityLevel": "JAVA_16",
     "mixins": [
-      "VoidoriteKnockbackResistance",
-        "BrewingRecipeRegistryInvoker",
-        "BrewingRecipeRegistryInjector"
+      "mixin.VoidoriteKnockbackResistance",
+      "mixin.BrewingRecipeRegistryInjector",
+      "mixin.BrewingRecipeRegistryInvoker"
     ],
     "client": [
     ],

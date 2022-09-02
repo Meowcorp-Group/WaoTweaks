@@ -1,4 +1,4 @@
-package online.meowcorp.waotweaks.mixin;
+package net.meowcorp.waotweaks.mixin;
 
 import java.util.UUID;
 
@@ -21,7 +21,7 @@ import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.Item;
 
-import online.meowcorp.waotweaks.voidorite.VoidoriteArmor;
+import net.meowcorp.waotweaks.voidorite.VoidoriteArmor;
 
 @Mixin(ArmorItem.class)
 public abstract class VoidoriteKnockbackResistance {

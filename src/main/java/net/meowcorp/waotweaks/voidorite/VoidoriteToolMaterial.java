@@ -1,4 +1,4 @@
-package online.meowcorp.waotweaks.voidorite;
+package net.meowcorp.waotweaks.voidorite;
 
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;

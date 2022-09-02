@@ -1,4 +1,4 @@
-package online.meowcorp.waotweaks.potions;
+package net.meowcorp.waotweaks.potions;
 
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;

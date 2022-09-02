@@ -1,13 +1,13 @@
-package online.meowcorp.waotweaks;
+package net.meowcorp.waotweaks;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
+import net.meowcorp.waotweaks.voidorite.VoidoriteOreGen;
 import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
-import online.meowcorp.waotweaks.potions.Pots;
-import online.meowcorp.waotweaks.voidorite.Voidorite;
-import online.meowcorp.waotweaks.voidorite.VoidoriteArmor;
-import online.meowcorp.waotweaks.voidorite.VoidoriteOreGen;
+import net.meowcorp.waotweaks.potions.Pots;
+import net.meowcorp.waotweaks.voidorite.Voidorite;
+import net.meowcorp.waotweaks.voidorite.VoidoriteArmor;
 
 public class WaoTweaks implements ModInitializer {
 

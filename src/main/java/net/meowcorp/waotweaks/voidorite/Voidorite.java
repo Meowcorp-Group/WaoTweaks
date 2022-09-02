@@ -1,17 +1,17 @@
-package online.meowcorp.waotweaks.voidorite;
+package net.meowcorp.waotweaks.voidorite;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.fabricmc.fabric.api.tool.attribute.v1.FabricToolTags;
+import net.meowcorp.waotweaks.ItemBase.AxeBase;
+import net.meowcorp.waotweaks.ItemBase.HoeBase;
+import net.meowcorp.waotweaks.ItemBase.PickaxeBase;
+import net.meowcorp.waotweaks.WaoTweaks;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
 import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
-import online.meowcorp.waotweaks.ItemBase.AxeBase;
-import online.meowcorp.waotweaks.ItemBase.HoeBase;
-import online.meowcorp.waotweaks.ItemBase.PickaxeBase;
-import online.meowcorp.waotweaks.WaoTweaks;
 
 public class Voidorite {
 
