@@ -8,8 +8,12 @@ import net.minecraft.util.Identifier;
 import net.meowcorp.waotweaks.potions.Pots;
 import net.meowcorp.waotweaks.voidorite.Voidorite;
 import net.meowcorp.waotweaks.voidorite.VoidoriteArmor;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class WaoTweaks implements ModInitializer {
+
+    public static final Logger clog = LoggerFactory.getLogger("waotweaks");
 
     //Item Group VOIDORITE
     public static final ItemGroup VOIDORITE = FabricItemGroupBuilder.build(
@@ -42,7 +46,7 @@ public class WaoTweaks implements ModInitializer {
         Pots.register();
         ColoredLamps.register();
 
-        System.out.println("It appears that WaoTweaks is installed.");
+        clog.info("It appears that WaoTweaks is installed.");
     }
 
 }
