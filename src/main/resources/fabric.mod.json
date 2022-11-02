@@ -22,6 +22,12 @@
   "entrypoints": {
     "main": [
       "net.meowcorp.waotweaks.WaoTweaks"
+    ],
+    "client": [
+      "net.meowcorp.waotweaks.client.WaoTweaksClient"
+    ],
+    "fabric-datagen": [
+      "net.meowcorp.waotweaks.datagen.WaoTweaksDatagen"
     ]
   },
   "mixins": [
