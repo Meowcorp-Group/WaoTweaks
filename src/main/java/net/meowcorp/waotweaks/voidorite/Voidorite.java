@@ -2,7 +2,6 @@ package net.meowcorp.waotweaks.voidorite;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.fabricmc.fabric.api.tool.attribute.v1.FabricToolTags;
 import net.meowcorp.waotweaks.ItemBase.AxeBase;
 import net.meowcorp.waotweaks.ItemBase.HoeBase;
 import net.meowcorp.waotweaks.ItemBase.PickaxeBase;
@@ -27,13 +26,19 @@ public class Voidorite {
         );
 
         //Voidorite Block
+//        public static final Block VOIDORITE_BLOCK = new Block(
+//                FabricBlockSettings
+//                        .of(Material.METAL)
+//                        .breakByHand(false)
+//                        .breakByTool(FabricToolTags.PICKAXES, 4)
+//                        .requiresTool()
+//                        .strength(50, 1200.0f)
+//        );
         public static final Block VOIDORITE_BLOCK = new Block(
                 FabricBlockSettings
                         .of(Material.METAL)
-                        .breakByHand(false)
-                        .breakByTool(FabricToolTags.PICKAXES, 4)
                         .requiresTool()
-                        .strength(50, 1200.0f)
+                        .strength(500, 1200.0f)
         );
 
         //Voidorite Dust
@@ -51,11 +56,17 @@ public class Voidorite {
         );
 
         //Voidorite Ore
+//        public static final Block VOIDORITE_ORE = new Block(
+//                FabricBlockSettings
+//                        .of(Material.STONE)
+//                        .breakByHand(false)
+//                        .breakByTool(FabricToolTags.PICKAXES, 4)
+//                        .requiresTool()
+//                        .strength(30, 1200.0f)
+//        );
         public static final Block VOIDORITE_ORE = new Block(
                 FabricBlockSettings
                         .of(Material.STONE)
-                        .breakByHand(false)
-                        .breakByTool(FabricToolTags.PICKAXES, 4)
                         .requiresTool()
                         .strength(30, 1200.0f)
         );

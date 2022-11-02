@@ -9,17 +9,19 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
+import static net.minecraft.recipe.BrewingRecipeRegistry.registerPotionRecipe;
+
 @Mixin(BrewingRecipeRegistry.class)
 public class BrewingRecipeRegistryInjector implements BrewingRecipeRegistryInvoker {
     @Inject(at = @At("HEAD"), method = "registerDefaults")
     private static void registerDefaults(CallbackInfo info) {
         //Levitation
-        invokeRegisterPotionRecipe(Potions.AWKWARD, Items.CHORUS_FRUIT, Pots.LEVITATION);
+        registerPotionRecipe(Potions.AWKWARD, Items.CHORUS_FRUIT, Pots.LEVITATION);
 
         //Long Levitation
-        invokeRegisterPotionRecipe(Pots.LEVITATION, Items.REDSTONE, Pots.LONG_LEVITATION);
+        registerPotionRecipe(Pots.LEVITATION, Items.REDSTONE, Pots.LONG_LEVITATION);
 
         //Strong Levitation
-        invokeRegisterPotionRecipe(Pots.LEVITATION, Items.GLOWSTONE_DUST, Pots.STRONG_LEVITATION);
+        registerPotionRecipe(Pots.LEVITATION, Items.GLOWSTONE_DUST, Pots.STRONG_LEVITATION);
     }
 }
