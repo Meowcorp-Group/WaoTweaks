@@ -29,7 +29,9 @@ jobs:
       - name: make gradle wrapper executable
         if: ${{ runner.os != 'Windows' }}
         run: chmod +x ./gradlew
-      - name: build
+      - name: run datagen
+        run: ./gradlew runDatagenClient
+      - name: run build
         run: ./gradlew build
       - name: capture build artifacts
         if: ${{ runner.os == 'Linux' && matrix.java == '17' }} # Only upload artifacts built from latest java on one OS
