@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "waotweaks:block/light_blue_colored_lamp_on"
-  }
-}

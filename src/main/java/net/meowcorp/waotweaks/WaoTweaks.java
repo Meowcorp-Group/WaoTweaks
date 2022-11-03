@@ -8,6 +8,7 @@ import net.minecraft.util.Identifier;
 import net.meowcorp.waotweaks.potions.Pots;
 import net.meowcorp.waotweaks.voidorite.Voidorite;
 import net.meowcorp.waotweaks.voidorite.VoidoriteArmor;
+import net.minecraft.util.registry.Registry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -30,7 +31,7 @@ public class WaoTweaks implements ModInitializer {
     //Itme Group LAMPS
     public static final ItemGroup LAMPS = FabricItemGroupBuilder.build(
             new Identifier("waotweaks", "lamps"),
-            () -> new ItemStack(ColoredLamps.COLORED_LAMP2)
+            () -> new ItemStack(Registry.ITEM.get(new Identifier("waotweaks", "orange_colored_lamp")))
     );
 
     @Override
