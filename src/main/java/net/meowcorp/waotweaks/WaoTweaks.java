@@ -14,7 +14,8 @@ import org.slf4j.LoggerFactory;
 
 public class WaoTweaks implements ModInitializer {
 
-    public static final Logger clog = LoggerFactory.getLogger("waotweaks");
+    public static final Logger CLOG = LoggerFactory.getLogger("waotweaks");
+    public static final String MODID = "waotweaks";
 
     //Item Group VOIDORITE
     public static final ItemGroup VOIDORITE = FabricItemGroupBuilder.build(
@@ -47,7 +48,7 @@ public class WaoTweaks implements ModInitializer {
         Pots.register();
         ColoredLamps.register();
 
-        clog.info("It appears that WaoTweaks is installed.");
+        CLOG.info("It appears that WaoTweaks is installed.");
     }
 
 }

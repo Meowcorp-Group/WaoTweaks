@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "waotweaks:block/colored_lamp_on"
+  }
+}

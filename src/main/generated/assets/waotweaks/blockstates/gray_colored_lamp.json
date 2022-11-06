@@ -1,7 +1,10 @@
 {
   "variants": {
-    "": {
+    "lit=false": {
       "model": "waotweaks:block/gray_colored_lamp"
+    },
+    "lit=true": {
+      "model": "waotweaks:block/gray_colored_lamp_on"
     }
   }
 }
